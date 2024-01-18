@@ -1,16 +1,39 @@
-# github_repos
 
-A new Flutter project.
+# Github Repos
 
-## Getting Started
+This is the source code for an app that displays github repos
 
-This project is a starting point for a Flutter application.
+## Tech Stack
 
-A few resources to get you started if this is your first Flutter project:
+Flutter, SQlite
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Run Locally
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Make sure to have the flutter sdk installed
+or get it here <https://docs.flutter.dev/get-started/install>
+
+Clone the project
+
+```bash
+  git clone https://github.com/RodgerCodes/github_repos.git
+```
+
+Go to the project directory
+
+```bash
+  cd github_repos
+```
+
+install depenciencies
+
+```bash
+  flutter pub get
+```
+
+Run app
+
+```bash
+flutter run
+```
+
+Built with flutter verions 3.16.1
