@@ -73,10 +73,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                   title: Text(
-                    state.data[index].fullname,
+                    state.data[index].fullname ?? "fullname",
                   ),
                   subtitle: Text(
-                    state.data[index].description,
+                    state.data[index].description ?? "description",
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),

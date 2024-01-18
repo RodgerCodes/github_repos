@@ -43,9 +43,9 @@ class RepoManager {
 
         if (request.statusCode == 200 || request.statusCode == 304) {
           // loop through the response
-          // will only save 5 items from the api response
-          for (int index = 0; index < 10; index++) {
-            // save data in database
+
+          for (int index = 0; index < response.length; index++) {
+            // save data in the sql database
             await _database.insert("repo", {
               "fullname": response[index]['full_name'],
               "login": response[index]['owner']['login'],
